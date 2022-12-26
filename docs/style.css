@@ -1,6 +1,7 @@
 * {
   margin: 0px;
-
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 a {
@@ -12,10 +13,50 @@ a:hover {
   text-decoration: underline;
 }
 
-#header {
+body {
+  background-color: #141a72;
+}
+
+header {
+  display: flex; 
+  background-color: white;
+  padding: 1rem;
+}
+
+#nav {
   display: flex;
 }
 
-.logo {
-  height: 8rem;
+.logo-1 {
+  height: 5rem;
+}
+
+.logo-2 {
+  align-self: center;
+  height: 7rem;
+  padding-right: 9rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  padding: 2rem;
+}
+
+.footer-tab {
+  display: flex;
+  flex-direction: column;
+  color: #141a72;
+}
+
+.footer-tab p {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.footer-item {
+  color: #141a72;
+  padding-bottom: .4rem;
 }
