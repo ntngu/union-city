@@ -4,7 +4,7 @@ A reimagining of the City of Union City's website.
 ## Description
 I recently took a look at the City of Union City's website and made the decision to redesign it on my own accord.
 
-This would only be a pure HTML and CSS website, but this is a good opportunity to practice my CSS skills.
+This is a pure HTML and CSS website. Just practicing my CSS skills.
 
 ## Technologies
 Just HTML and CSS.
