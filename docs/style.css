@@ -134,3 +134,18 @@ footer {
   display: block;
   border: .1rem solid rgb(37, 127, 37);
 }
+
+#search-button {
+  background-color: rgb(37, 127, 37);
+  padding: .2rem;
+  color: white;
+}
+
+#search-button:hover {
+  background-color: rgb(44, 153, 44);
+
+}
+
+#search form {
+  vertical-align: middle;
+}
